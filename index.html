@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Users database</a>
+        </nav>
+        <main>
+            <button type="button" id="add-user" class="btn btn-dark margin">Add new</button>
+            <button type="button" id="back" class="btn btn-secondary  margin">Back</button>
+            <form class="search" action=""><input id="search" type="text" placeholder="Username"></input><button id="search-btn">Search</button></form>
+            <div class="clear"></div>
+            <ul class="list-group">
+            </ul>
+            <div title="Add new user" id="add-new">
+                <form id="form-user" action="">
+                    <h5>User</h5>
+                    <label for="username">Username:</label><input class="form-control" title="Enter your username" type="text" id="username">
+                    <label for="name">Name:</label><input class="form-control" type="text" id="name">
+                    <label for="email">Email:</label><input class="form-control" type="text" id="email">
+                    <h5>Address</h5>
+                    <label for="street">Street:</label><input class="form-control" id="street" type="text">
+                    <label for="suite">Suite:</label><input class="form-control" id="suite" type="text">
+                    <label for="city">City</label><input class="form-control" id="city" type="text">
+                    <label for="zipcode">Zipcode:</label><input class="form-control" id="zipcode" type="text">
+                    <label for="phone">Phone:</label><input class="form-control" id="phone" type="text">
+                    <label for="website">Website:</label><input class="form-control" id="website" type="text">
+                    <h5>Company</h5>
+                    <label for="company-name">Company name:</label><input class="form-control" id="company-name" type="text">
+                    <label for="company-catchPhrase">Catchphrase:</label><input class="form-control" id="company-catchPhrase" type="text">
+                    <label for="company-bs">BS:</label><input class="form-control" id="company-bs" type="text">
+                    <button class="btn btn-secondary">Submit</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

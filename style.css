@@ -1,0 +1,76 @@
+.clear {
+    clear: both;
+}
+
+main {
+    padding: 30px;
+}
+
+.margin {
+    margin: 0 10px 30px 0;
+}
+
+.list-group .btn {
+    float: right;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0 30px 30px;
+}
+
+#add-new h5 {
+    margin: 30px 0 20px;
+    color: #828282;
+    text-align: center;
+}
+
+#add-new input {
+    margin-bottom: 10px;
+}
+
+.big {
+    text-transform: capitalize;
+}
+
+.property {
+    float: right;
+}
+
+.header-list {
+    color: #828282;
+    text-align: center;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.header-list li {
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+}
+.chapter {
+    display: block;
+    margin: 20px 0;
+}
+
+.remove {
+    transition-duration: 0.5s;
+    display: none;
+}
+
+#add-user {
+    float: left;
+}
+
+#back {
+    display: none;
+    float: left;
+}
+
+.search {
+    float: right;
+}
+
+.search input {
+    padding-left: 10px;
+}
